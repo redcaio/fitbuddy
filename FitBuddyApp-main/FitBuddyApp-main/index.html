@@ -7,6 +7,13 @@
   <!-- Bootstrap CSS -->
   <link href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">   
   <link rel="stylesheet" href="Styles/index.css"> 
+  <link rel="manifest" href="%PUBLIC_URL%/manifest.json" />
+  <script>
+    if (typeof navigator.serviceWorker !== 'undefined') {
+      navigator.serviceWorker.register('pwabuilder-sw.js')
+    }
+    </script>
+
 </head>
 <body>
   <div class="container">
@@ -93,14 +100,14 @@
           <a href="./index.html"><img class="icon-menu" src="./Assets/house-door-fill.svg" alt="Ícone"></a>
           <a href="./mapa.html"><img class="icon-menu" src="./Assets/geo-alt-fill.svg" alt="Ícone"></a>
         </nav>
-  <!-- Bootstrap JS e dependencies -->
-  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
-  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
-  <!-- Bibliotecas de gráficos -->
-  <script src="https://d3js.org/d3.v4.min.js"></script>
-  <script src="https://cdn.jsdelivr.net/npm/billboard.js/dist/billboard.min.js"></script>
-  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/billboard.js/dist/billboard.min.css" />
+<!-- Bootstrap JS e dependencies -->
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+<!-- Bibliotecas de gráficos -->
+<script src="https://d3js.org/d3.v4.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/billboard.js/dist/billboard.min.js"></script>
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/billboard.js/dist/billboard.min.css" />
 
 </body>
 </html>
