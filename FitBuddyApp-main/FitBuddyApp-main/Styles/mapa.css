@@ -1,0 +1,53 @@
+#map {
+    height: 100vh;
+    width: screen;
+    z-index: -1;
+}
+.navbar-bottom {
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    background-color: white;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 65.41px;
+    border-top: 1px solid rgba(0, 0, 0, 0.1);
+    z-index: 1000; /* Adiciona a propriedade z-index para garantir que o menu fique na frente do mapa */
+    border-radius: 2rem 2rem 0 0 ;
+}
+
+.icon-white {
+    filter: brightness(0) invert(1);
+    padding-bottom: 5px;
+}
+
+.icon-menu{
+    width: 30px;
+}
+
+main{
+    width: 100%;
+}
+
+#navSearch {
+    position: fixed; 
+    top: 50px; 
+    width: calc(100% - 45px); 
+    z-index: 1000; 
+    margin: 20px;
+    border-radius: 10px;
+    padding: 2px;
+}
+
+.btn-purple {
+    color: #fff;
+    background-color: purple;
+    border-color: purple;
+}
+  
+.btn-purple:hover {
+    background-color: darkpurple;
+    border-color: darkpurple;
+}
+

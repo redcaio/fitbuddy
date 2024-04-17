@@ -1,0 +1,163 @@
+/* Custom CSS */
+body {
+    background-color: #f8f9fa;
+    padding-top: 20px;
+    width: 100%;
+    height: 100%;
+  }
+  .container {
+    max-width: 800px; /* Aumentado para acomodar o carrossel */
+  }
+  .card-body {
+    padding: 20px;
+  }
+  .container-box {
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    padding: 20px;
+    margin-bottom: 20px;
+    background-color: #eeeaea;
+  }
+  .activity-stats, .activities, .map, .nearby-gyms, .graphic, .date-container {
+    margin-bottom: 20px;
+  }
+  .activity-stats h4, .activities h5, .nearby-gyms h5 {
+    margin-bottom: 10px;
+  }
+  .map img, .graphic img {
+    max-width: 100%;
+    height: auto;
+  }
+  .date {
+    margin-top: 20px;
+  }
+  .date-container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+  .date {
+    flex: 1;
+  }
+  .greeting {
+    font-size: 24px;
+    margin-bottom: 20px;
+  }
+  /* Added CSS */
+  .map {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+  }
+  #donut-chart {
+    width: 100%;
+    height: 300px; /* Ajustado para uma altura fixa */
+  }
+  .info-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  .info-container p {
+    margin: 0;
+    padding: 0;
+  }
+
+  /* Quadrados */
+  .quadrado {
+    width: 100px;
+    height: 50px; /* Altura reduzida para caber lado a lado horizontalmente */
+    background-color: #f0f0f0;
+    margin-right: 10px; /* Espaço entre os quadrados */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 10px; /* Bordas curvas */
+  }
+
+  .texto {
+    font-size: 14px;
+  }
+
+  .corrida {
+    background-color: #f8be53; /* Laranja */
+  }
+
+  .academia {
+    background-color: #e981e9; /* Roxo */
+  }
+
+  .outros {
+    background-color: #9e9999; /* Cinza */
+  }
+
+  /* Estilização para os vídeos */
+  .video-container {
+    position: relative;
+    padding-bottom: 56.25%; /* Proporção 16:9 */
+    overflow: hidden;
+    margin-bottom: 20px;
+    max-width: 100%; /* Alteração: garantir que o vídeo não ultrapasse a largura da tela */
+  }
+
+  .video-container iframe {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%; /* Alteração: vídeo ocupa 100% da largura do contêiner */
+    height: 100%; /* Manter a altura do vídeo */
+  }
+
+  /* Estilização para os botões do carrossel */
+  .carousel-control-prev,
+  .carousel-control-next {
+    height: 30px; /* Reduzindo a altura vertical */
+  }
+
+  .carousel-control-prev-icon,
+  .carousel-control-next-icon {
+    background-size: 15px 15px; /* Redimensionando o ícone */
+  }
+
+  /* Estilização para a coluna da data */
+  .date-column {
+    min-height: 120px; /* Altura mínima */
+  }
+  .fonte1{font-size: 11px;}
+  .fonte2{font-family: Arial;font-size: 10px;}
+  .vertical-bar {
+height: 60px;
+width: 2px;
+background-color: #4b4545;
+ }
+ .font-smaller h5,
+.font-smaller p {
+font-size: 20px;
+}
+#donut-chart {
+    width: 100%;
+    height: 150px; /* Ajustado para uma altura fixa */
+  }
+  .map-container {
+    display: flex;
+    justify-content: center;
+  }
+  .navbar-bottom {
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    background-color: white;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 65.41px;
+    border-top: 1px solid rgba(0, 0, 0, 0.1);
+    z-index: 1000; /* Adiciona a propriedade z-index para garantir que o menu fique na frente do mapa */
+    border-radius: 2rem 2rem 0 0 ;
+}
+.icon-menu{
+  width: 30px;}
